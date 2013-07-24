@@ -37,7 +37,7 @@
 	</div> <!-- #footer-area -->
 
 	<div id="footer-bottom-area" class="container">
-		<p id="copyright"><?php printf( __( 'Designed by %1$s | Powered by %2$s', 'Foxy' ), '<a href="http://www.mafiashare.net" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.vectors4all.net">Vectors</a>' ); ?></p>
+		<p id="copyright"><?php printf( __( 'Copyright by %1$s', 'Foxy' ), '<a href="#" title="Vietnam Japan Student Conference">VJSC</a>' ); ?></p>
 	</div>
 
 	<?php wp_footer(); ?>
