@@ -37,7 +37,7 @@
 	<div id="body-area">
 		<div class="container">
 			<header id="main-header" class="clearfix">
-				<?php $logo = ( $user_logo = et_get_option( 'foxy_logo' ) ) && '' != $user_logo ? $user_logo : $template_directory_uri . '/images/logo.png'; ?>
+				<?php $logo = ( $user_logo = et_get_option( 'foxy_logo' ) ) && '' != $user_logo ? $user_logo : $template_directory_uri . '/images/logo.jpg'; ?>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo"/></a>
 				<p id="slogan"><?php bloginfo( 'description' ); ?></p>
 

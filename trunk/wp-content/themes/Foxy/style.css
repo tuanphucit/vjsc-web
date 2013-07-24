@@ -95,8 +95,8 @@ img { max-width: 100%; height: auto; }
 
 #body-area { background-color: #f2f2f2; padding-top: 100px; }
 	.container { text-align: left; margin: 0 auto; width: 1280px; position: relative; -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); background-color: #fff; }
-			#main-header { padding: 53px 62px 53px 80px; }
-				#logo, #slogan { float: left; }
+			#main-header { padding: 40px 62px 10px 80px; }
+				#logo, #slogan { float: left; height: 110px}
 				#slogan { font-style: italic; color: #333; padding-top: 20px; padding-left: 15px; }
 				#top-navigation { float: right; padding-top: 10px; }
 					#top-navigation nav { float: left; }
@@ -479,19 +479,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 	50% { background: #f79d3c; }
 }
 #featured {/*-moz-animation: etcustom 5s linear infinite; -o-animation: etcustom 5s linear infinite; -webkit-animation: etcustom 2s linear infinite; animation: etcustom 5s linear infinite;*/
--moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.07) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.07))); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background-color: #f7a13c; -webkit-box-shadow: inset 0 0 250px #bd3905; -moz-box-shadow: inset 0 0 250px #bd3905; box-shadow: inset 0 0 250px #bd3905; text-align: center; padding-top: 104px; position: relative; }
+-moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.07) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.07))); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.07) 100%); background-color: #f7a13c; -webkit-box-shadow: inset 0 0 250px #bd3905; -moz-box-shadow: inset 0 0 250px #bd3905; box-shadow: inset 0 0 250px #bd3905; text-align: center; padding-top: 20px; position: relative; }
 	#featured, #featured #slides { overflow: hidden; }
 	#featured .slide { width: 100%; float: left; margin-right: -100%; position: relative; display: none; -webkit-transform: translate3d(0,0,0); }
 	.js #featured .slide.et-active-slide { display: list-item; }
 
-	#featured .slide img { margin-bottom: -2px; }
+	#featured .slide img { margin-bottom: -2px;}
 
 	/*#featured .slide img, #featured .slide h2, #featured .slide .description { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translate3d(0,0,0); }*/
 
-	.slide .description { text-shadow: 0 0 10px rgba(0,0,0,0.4); padding-bottom: 50px; }
-		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .post-description h2, .related.products h2 { font-family: 'Raleway', Arial, sans-serif; font-weight: 100; letter-spacing: -4px; }
+	.slide .description { text-shadow: 0 0 10px rgba(0,0,0,0.4); padding-bottom: 30px; }
+		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .post-description h2, .related.products h2 { font-family: 'Raleway', Arial, sans-serif; font-weight: 50; letter-spacing: -4px; }
 			.slide a:hover { text-decoration: none; color: rgba(255,255,255,0.9); }
-		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .related.products h2 { font-size: 60px; color: #333; }
+		.slide .description h2, .post-heading h1, h1#comments, #reply-title, h1.category-title, .related.products h2 { font-size: 50px; color: #333; }
 		.slide .description h2, .post-description h2 { color: #fff; }
 		.slide .description p { color: #fff; font-size: 24px; margin-top: -2px; }
 	.left-arrow, .right-arrow, .et-arrow-prev, .et-arrow-next { position: absolute; top: 50%; margin-top: -40px; background-color: #333; width: 40px; height: 80px; text-indent: -9999px; display: block; z-index: 100; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; opacity: 0; }
